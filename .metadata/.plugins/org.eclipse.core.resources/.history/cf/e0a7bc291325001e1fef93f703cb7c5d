@@ -1,0 +1,30 @@
+package com.springtesting.javatesting.controllers;
+
+import static org.mockito.Mockito.when;
+
+import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+
+import com.springtesting.javatesting.models.Weather;
+import com.springtesting.javatesting.services.WeatherService;
+
+public class WeatherControllerTest {
+
+	@InjectMocks
+	private WeatherController controller;
+	
+	@Mock
+	private WeatherService service;
+	
+	@Test
+	public void getWeather() {
+		Weather weatherMock = new Weather();
+		weatherMock.setMaxTemp(30.2);
+		weatherMock.setMinTemp(21.0);
+		weatherMock.setStatus("Sunny");
+		when(service.getWeather()).thenReturn(weatherMock);
+		controller.getWeather();
+		
+	}
+}

@@ -1,0 +1,26 @@
+package com.springtesting.javatesting.models;
+
+public class Weather {
+	private String status;
+	private Short minTemp;
+	private Short maxTemp;
+	
+	public String getStatus() {
+		return status;
+	}
+	public void setStatus(String status) {
+		this.status = status;
+	}
+	public Short getMinTemp() {
+		return minTemp;
+	}
+	public void setMinTemp(Short minTemp) {
+		this.minTemp = minTemp;
+	}
+	public Short getMaxTemp() {
+		return maxTemp;
+	}
+	public void setMaxTemp(Short maxTemp) {
+		this.maxTemp = maxTemp;
+	}
+}

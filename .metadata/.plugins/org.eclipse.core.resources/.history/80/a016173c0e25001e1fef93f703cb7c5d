@@ -1,0 +1,10 @@
+package com.springtesting.javatesting.controllers;
+
+@RestController
+public class WeatherController {
+
+	@GetMapping("/api/weather")
+	public String getWeather() {
+		return "test";
+	}
+}

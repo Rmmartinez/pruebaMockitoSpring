@@ -1,0 +1,15 @@
+package com.springtesting.javatesting.controllers;
+
+import org.junit.Test;
+import org.mockito.InjectMocks;
+
+public class WeatherControllerTest {
+
+	@InjectMocks;
+	private WeatherController controller;
+	
+	@Test
+	public void getWeather() {
+		
+	}
+}

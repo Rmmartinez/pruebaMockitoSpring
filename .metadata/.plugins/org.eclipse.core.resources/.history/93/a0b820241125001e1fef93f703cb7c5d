@@ -1,0 +1,5 @@
+package com.springtesting.javatesting.services;
+
+public class WeatherService {
+
+}

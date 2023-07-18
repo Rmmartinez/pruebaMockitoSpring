@@ -1,0 +1,11 @@
+package com.springtesting.javatesting.controllers;
+
+import org.junit.Test;
+
+public class WeatherControllerTest {
+
+	@Test
+	public void getWeather() {
+		
+	}
+}

@@ -1,0 +1,5 @@
+package com.springtesting.javatesting.models;
+
+public class Weather {
+
+}
